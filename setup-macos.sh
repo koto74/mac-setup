@@ -1,8 +1,8 @@
 #!/bin/zsh
 
 # Install Homebrew
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/username/.zprofile 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile 
 
 brew update
 brew install \
