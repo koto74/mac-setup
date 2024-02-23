@@ -9,3 +9,6 @@
 
 ### uncheck
 > Settings > General > Window > Native full screen windows 
+
+### set font
+> Settings > Profiles > Text > Font > Hack Nerd Font Mono

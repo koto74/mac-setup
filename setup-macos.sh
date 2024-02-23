@@ -2,13 +2,16 @@
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile 
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshenv
 
 brew update
 brew install \
     git starship nodenv pyenv
 brew install --cask \
     docker google-chrome iterm2
+
+# font install
+brew install --cask font-hack-nerd-font
 
 # zsh-completions
 cat << 'END' >> ~/.zshenv
