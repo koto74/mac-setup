@@ -42,3 +42,24 @@ pyenv global "$_"
 # sudo xcodebuild -runFirstLaunch
 
 chmod 755 /opt/homebrew/share
+
+# setting .zshrc
+cat << 'END' >> ~/.zshrc
+# command
+alias ls='ls --color=auto'
+alias ll='ls -alps'
+
+# git
+alias g='git'
+alias ga='git add'
+alias gc='git commit'
+alias gs='git status'
+alias gp='git push'
+alias gb='git branch'
+alias gco='git checkout'
+alias gf='git fetch'
+
+# docker
+alias dcu='docker compose up'
+
+END
