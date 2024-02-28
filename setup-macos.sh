@@ -6,7 +6,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshenv
 
 brew update
 brew install \
-    git starship nodenv pyenv
+    git starship nodenv pyenv rustup-init
 brew install --cask \
     docker google-chrome iterm2
 
