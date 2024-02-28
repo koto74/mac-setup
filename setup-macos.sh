@@ -52,7 +52,7 @@ alias ll='ls -alps'
 # git
 alias g='git'
 alias ga='git add'
-alias gc='git commit'
+alias gc='git commit -m'
 alias gs='git status'
 alias gp='git push'
 alias gb='git branch'
