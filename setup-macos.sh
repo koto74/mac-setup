@@ -8,7 +8,7 @@ brew update
 brew install \
     git starship nodenv pyenv rustup-init
 brew install --cask \
-    docker google-chrome iterm2
+    docker google-chrome arc iterm2
 
 # font install
 brew install --cask font-hack-nerd-font
